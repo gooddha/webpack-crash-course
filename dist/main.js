@@ -91,9 +91,20 @@
   !*** ./app.js ***!
   \****************/
 /*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("let people = (__webpack_require__(/*! ./people.js */ \"./people.js\"));\r\n\r\nconsole.log(people[0].name);\n\n//# sourceURL=webpack:///./app.js?");
+
+/***/ }),
+
+/***/ "./people.js":
+/*!*******************!*\
+  !*** ./people.js ***!
+  \*******************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("alert('Hello World');\n\n//# sourceURL=webpack:///./app.js?");
+eval("// function getHello() {\r\n//   return 'Hello There';\r\n// }\r\n\r\nlet people = [\r\n  {name: 'John Doe'},\r\n  {name: 'Steve Smith'},\r\n  {name: 'Carol Williams'}\r\n];\r\n\r\nmodule.exports = people;\n\n//# sourceURL=webpack:///./people.js?");
 
 /***/ })
 
